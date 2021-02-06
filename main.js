@@ -37,6 +37,7 @@ function createWindow () {
         content: message.content,
         createdAt: message.createdAt,
         userName: message.author.username,
+        displayName: message.member.displayName,
         userId: message.author.id,
         avatarURL: message.author.avatarURL({size: 32}),
         channel: message.channel.name,

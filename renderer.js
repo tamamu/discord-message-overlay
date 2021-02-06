@@ -9,7 +9,7 @@ window.api.on('discordMessage', data => {
     const elm = document.createElement('pre')
     elm.style.top = `${Math.random() * 100}%`
     elm.textContent = data.content
-    elm.setAttribute('data-user', data.userName)
+    elm.setAttribute('data-user', data.displayName)
     elm.style.backgroundImage = `url(${data.avatarURL})`;
     elm.addEventListener('animationend', () => {
         document.body.removeChild(elm)

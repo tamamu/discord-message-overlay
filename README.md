@@ -1,4 +1,6 @@
-# electron-quick-start
+# Discord Message Overlay
+
+![demo](demo.gif)
 
 Edit main.js and `npm start` to run:
 
