@@ -1,0 +1,28 @@
+body {
+    overflow: hidden;
+}
+@keyframes scroll {
+    from {
+      transform:translateX(100%);
+    }
+    to {
+      transform:translateX(-100%);
+    }
+}
+pre {
+    position: absolute;
+    width: 100%;
+    padding-left: 32px;
+    animation: scroll 15s linear;
+    font-size: 32px;
+    color: white;
+    text-shadow:1px 1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+    background: no-repeat;
+}
+pre::before {
+    content: attr(data-user);
+    font-size: 16px;
+    color: lightgray;
+    position: absolute;
+    top: -16px;
+}

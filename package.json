@@ -1,0 +1,22 @@
+{
+  "name": "discord-message-overlay",
+  "version": "1.0.0",
+  "description": "Display Discord server messages on desktop like nicovideo",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/tamamu/discord-message-overlay",
+  "keywords": [
+    "discord",
+    "nicovideo"
+  ],
+  "author": "tamamu",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.2.2"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
