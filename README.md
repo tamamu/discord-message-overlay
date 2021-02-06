@@ -2,6 +2,14 @@
 
 ![demo](demo.gif)
 
+Clone and install dependencies:
+
+```bash
+git clone https://github.com/tamamu/discord-message-overlay
+cd discord-message-overlay
+npm install
+```
+
 Edit main.js and `npm start` to run:
 
 ```js
