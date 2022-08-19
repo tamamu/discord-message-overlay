@@ -14,7 +14,7 @@
   "author": "tamamu",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^11.2.3"
+    "electron": "^20.0.3"
   },
   "dependencies": {
     "discord.js": "^12.5.1"
